@@ -1,0 +1,78 @@
+body {
+  background: #ffffff;
+  }
+  * {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  }
+  .app {
+  height: auto;
+  
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #ffffff;
+  }
+  .todo-list {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: unset; */
+    /* color: #000000; */
+    background-color: #CCF5D3;
+    --bs-border-radius: 13px;
+    width: 25%;
+    height: 240px;
+    /* padding-left: 20px; */
+    float: left;
+    padding-top: 20px;
+    /* padding-bottom: 94px; */
+    margin: 50px;
+    padding-left: 20px;
+}
+  
+  li {
+  list-style: none;
+  overflow-wrap: anywhere;
+  height: auto;
+
+  }
+  button {
+  padding: 0 8px;
+  margin: 0 4px;
+  border-radius: 8px;
+  color: #000000;
+  background-color: #f68e5f;
+  }
+
+  .btns{
+
+    float:right;
+    padding-left: 200px;
+  }
+  .InputText{
+    width: 40%;
+
+    padding-left: 10px;
+    background-color: #6aebaf1c;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #578f75;
+    margin: 6px;
+  }
+  .displayList{
+    width: 1000px;
+    text-align: center;
+  }
+
+  
